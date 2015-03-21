@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="TrigonFrameLayout">
+        <attr name="angle_size" format="float" />
+        <attr name="angle_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="GifMoviewView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifMoviewViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AnimatedPathView">
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeColor" format="color|reference" />
+        <attr name="fillColor" format="color|reference" />
+        <attr name="phase" format="float" />
+        <attr name="duration" format="integer" />
+        <attr name="fillDuration" format="integer" />
+        <attr name="fillOffset" format="integer" />
+        <attr name="fadeFactor" format="float" />
+        <attr name="svgPath" format="reference" />
+    </declare-styleable>
+</resources>
